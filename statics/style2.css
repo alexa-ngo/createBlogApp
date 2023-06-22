@@ -1,0 +1,89 @@
+#root {
+    background-color:rgb(0, 64, 75);
+    font: Swiss-721, Arial, Helvetica, sans-serif;
+    margin: rgb(0, 64, 75);
+    padding: 10px 10px 10px 10px;
+}
+
+#divContainer {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 105, 123);
+    margin: 50px;
+} 
+
+div#innerDivContainer {
+    margin: 0rem 0rem 0rem 14rem;
+    padding: 2rem 0rem 0rem 0rem;
+}
+ 
+#homePageLink {
+    padding: 2rem;
+}
+
+#titleDiv {
+    margin: 1rem;
+}
+
+#authorDiv {
+    margin: 1rem;
+}
+
+#contentDiv{
+    margin: 1rem;
+}
+
+.error {
+    background-color: rgb(255, 162, 246);
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+    background-position: 150px center;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(255, 88, 238);
+    padding: 30px;
+    margin: 10px 20px;
+    padding: 15px 10px 15px 50px;
+    text-align: center;
+}
+
+.wordLimit {
+    background-color: rgb(123, 255, 0);
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+    background-position: 150px center;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(92, 189, 0);
+    padding: 30px;
+    margin: 10px 20px;
+    padding: 15px 10px 15px 50px;
+    text-align: center;
+}
+
+#resetButton {
+    background-color:   rgb(0, 91, 107);
+    border-radius: 4px;
+    color: white;
+    font: Swiss-721, Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 6px 20px;
+    transition-duration: 0.4s;
+}
+
+#resetButton:hover {
+    background-color: gray;
+    color: white;
+  }
+
+#submitButton {
+    background-color:  rgb(0, 91, 107);
+    border-radius: 4px;
+    color: white;
+    font: Swiss-721, Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 6px 20px;
+    transition-duration: 0.4s;
+}
+
+#submitButton:hover {
+    background-color: gray;
+    color: white;
+}
+
+
