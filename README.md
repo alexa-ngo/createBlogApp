@@ -2,6 +2,12 @@
 
 This project is a simple blog application where people can add blog post entries. This program initializes both the front end and the back end of the application.
 
+A user can enter their material to post on their blog like this:
+![image](https://github.com/alexa-ngo/createBlogApp/assets/97919335/5dea2a31-6883-43d0-a492-612971bd7dee)
+
+After the "Submit" button is clicked, the result is displayed on http://localhost:4000/index.html in this format.
+![image](https://github.com/alexa-ngo/createBlogApp/assets/97919335/21b807f4-23c0-4582-a304-3c2054dbf100)
+
 ## Blog Entry
 
 - id
