@@ -11,7 +11,7 @@ function allBtns() {
 
   const eachEntry = {
     title: titleResult,
-    create_date: "",
+    create_date: dateResult,
     author: authorResult,
     content: contentResult,
   };
