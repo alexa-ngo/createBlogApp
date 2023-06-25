@@ -74,6 +74,8 @@ app.post("/blogEntry", (req, res) => {
   const requestBody = req.body;
   const dateOfEntry = Date.now();
   const currentEntryTime = dateOfEntry;
+  const dateObj = new Date(currentEntryTime);
+  const timeDateStr = dateObj.toDateString();
   const { title, author, content } = requestBody;
   const columnsList = ["title", "create_date", "author", "content"];
   db.run(
@@ -96,7 +98,7 @@ app.post("/blogEntry", (req, res) => {
     // }
     {
       $title: title,
-      $currentEntryTime: currentEntryTime,
+      $currentEntryTime: timeDateStr,
       $author: author,
       $content: content,
     },
